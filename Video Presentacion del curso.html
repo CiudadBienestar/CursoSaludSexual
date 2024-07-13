@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <style>
+    .btn-aqua {
+      background-color: #4ab8a1;
+      /* Verde agua marina más oscuro */
+      border-color: #4ab8a1;
+      /* Borde del mismo color */
+      color: #000;
+      /* Texto en negro */
+    }
+
+    .btn-aqua:hover {
+      background-color: #3a967b;
+      /* Cambio de color al pasar el mouse */
+      border-color: #3a967b;
+      /* Borde del mismo color al pasar el mouse */
+    }
+  </style>
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+  <button class="btn btn-aqua" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+    aria-expanded="false" aria-controls="collapseExample">
+    Video Presentación de Curso
+  </button>
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2I4ZJQipvvs?si=jJjuyGxO4XT3b7S5"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+
+</html>
